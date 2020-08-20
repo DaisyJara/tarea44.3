@@ -1,0 +1,211 @@
+#position{
+    margin: 1px;
+    position: relative;
+    background-color: rgb(227, 202, 245);
+    border: 2px solid black;
+    height: 400px;
+    width: 900px;
+    font-size: 20px;
+    font-family: normal;
+
+
+}
+.pos1{
+    position: none;
+    background-color: rgb(243, 210, 233);
+    border: 1px solid black;
+    border-radius: 2px;
+    width: auto;
+    height: 80px;
+    margin: 10px;
+  }
+.pos2{
+    position: relative;
+    background-color:rgb(243, 210, 233);
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 300px;
+    height: 260px;
+    left: 0;
+    margin: 10px;
+    font-style: normal;
+    font-size: 11px;
+    
+}
+.pos3{
+    position: absolute;
+    background-color: rgb(144, 223, 190);
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 560px;
+    height: 100px;
+    bottom: 150px;
+    margin: 20px;
+    right: -10px;
+    font-style: normal;
+    font-size: 12px;
+}
+.pos4{
+    position: relative;
+    background-color: rgb(144, 223, 190);
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 560px;
+    height: 150px;
+    margin: -4px;
+    left: 330px;
+    bottom: 160px;
+    font-style: normal;
+    font-size: 11px;
+}
+
+#grid{
+    display: grid;
+    background-color: rgb(192, 238, 238);
+    border: 2px solid #6375db;
+    padding: 10px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    width: auto;
+
+  }
+  
+  .grid1{
+    border: 1px solid #6e4dff;
+    border-radius: 5px;
+    background-color: #99ace0;
+    padding: 80px;
+    min-width: auto;
+    min-height: auto;
+    overflow: hidden;
+    
+  }
+  .grid2{
+    border: 1px solid #6e4dff;
+    border-radius: 5px;
+    background-color: #99ace0;
+    padding: 50px;
+    min-width: auto;
+    min-height: auto;
+  }
+  .grid3{
+    border: 1px solid #6e4dff;
+    border-radius: 5px;
+    background-color:#99ace0;
+    padding: 50px;
+    min-width: auto;
+    min-height: auto;
+  }
+  .grid4{
+    border: 1px solid #6e4dff;
+    border-radius: 5px;
+    background-color:#99ace0;
+    padding: 50px;
+    min-width: auto;
+    min-height: auto;
+  }
+  #flebox {
+    background: rgb(252, 174, 232);
+    border: 2px solid black;
+    min-width: auto;
+    min-height: auto;
+    margin: 5px;
+    display: inline-flex;
+    flex-direction: row;
+    flex:wrap;
+    flex-flow: column-reverse wrap;
+    justify-content:space-around;
+
+  }
+   #flexbox > div {
+       flex: 1 1 100px;
+   }
+  .flebox1 {
+    background: rgb(150, 147, 147);
+    border: 2px solid black;
+    border-radius: 5px;
+    min-width: auto;
+    min-height: auto;
+    left: 0;
+    margin: 10px;
+    flex:  1 1 400px;
+    order: 4;
+    
+  }
+  .flebox2 {
+    background: rgb(119, 193, 202);
+    border: 2px solid black;
+    border-radius: 5px;
+    align-self:flex-end;
+    min-width: auto;
+    min-height: auto;
+    margin: 10px;
+  }
+  .flebox3 {
+    background: rgb(119, 193, 202);
+    border: 2px solid black;
+    border-radius: 5px;
+    align-self:flex-end;
+    min-width: auto;
+    min-height: auto;
+    margin: 10px;
+    flex: 1;
+  }
+  .flebox4 {
+    background: rgb(119, 193, 202);
+    border: 2px solid black;
+    border-radius: 5px;
+    min-width: auto;
+    min-height: auto;
+    width: 50%;
+    align-content: center;
+    height: 50%;
+    margin: 10px;
+  }
+
+  #float{
+    
+    font-size: 20px;
+    background-color: rgb(226, 190, 190) ;
+    border: 2px solid black;
+    height: 400px;
+    width: 428px;
+    bottom: 1720px;
+    margin-left: 900px;
+    float: left;
+    position: relative;
+    
+}
+#float > div {
+    font-size: 14px;
+    padding: 1px;
+}
+.float1{
+    float: left;
+    background-color:rgb(248, 235, 160) ;
+    height: 80px;
+    width: 400px;
+    margin: 4px;
+}
+.float2{
+    float: left;
+    background-color:rgb(248, 235, 160) ;
+    height:80px;
+    width: 400px;
+    margin: 4px;
+}
+.float3{
+    float: left;
+    background-color: rgb(248, 235, 160) ;
+    height:80px;
+    width: 400px;
+    margin: 4px;
+}
+.float4{
+   float: left;
+    background-color:rgb(248, 235, 160) ;
+    height: 80px;
+    width: 400px;
+    margin: 4px;
+    
+}
